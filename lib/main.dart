@@ -161,7 +161,7 @@ class _DropDownPageState extends State<DropDownPage> {
             child: RaisedButton(
               child: Text('Submit'),
               onPressed: () => {
-                Navigator.pop(
+                Navigator.push(
                     context,
                     MaterialPageRoute(
                         builder: (context) => FinalCheesePage(finalCheese)))
